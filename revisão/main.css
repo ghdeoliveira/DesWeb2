@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body * {
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+  color: black;
+}
+
+.button {
+  background-color: rgb(41, 93, 206);
+  font-size: 18pt;
+  color: white;
+}
+
+.alternativas {
+  height: 500px;
+  width: 69%;
+  border: 2px solid;
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+  float:left;
+}
+
+.placar {
+  height: 500px;
+  width: 30%;
+  border: 2px solid;
+  float: right; 
+}
+
+footer {
+  padding: 20px;
+  font-style: italic;
+  text-align: center;
+}
